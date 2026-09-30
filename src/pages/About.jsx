@@ -17,14 +17,14 @@ export default function About() {
         <div>
           <img className="avatar big" src="/profile.jpg" alt="Photo of Martin" />
           <p>
-            I'm Martin, a junior front-end developer who is working toward a career
-            as a software engineer. I like building things people can see and use,
-            and I care about layouts that look good on both phones and desktops.
+            I'm Martin Lino Llantos Nares, a junior front-end developer who is working towards becoming a software engineer. 
+            I love learning different coding and programming languages. 
+            I admit I'm not really good at it yet. I'm just learning by watching tutorials and using AI to 
+            explore and create different website projects.
+            In fact, I'm just exploring and learning web development and software development.
           </p>
           <p>
-            I started with HTML and CSS, then moved to JavaScript, TypeScript, and
-            React. Right now I'm improving my code quality, accessibility, and
-            problem-solving so I can grow into a full stack role.
+            I started with HTML and CSS, then moved on to JavaScript, TypeScript, and React. Currently, I'm improving my code quality and problem solving skills to grow into a full stack role.
           </p>
           <div className="actions">
             <Link className="btn" to="/contact">Work with me</Link>

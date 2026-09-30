@@ -20,13 +20,7 @@ const projects = [
     demo: "",
     github: "",
   },
-  {
-    title: "Weather App",
-    text: "Search for a city and display the weather using the public API.",
-    tags: ["JavaScript", "API", "In progress"],
-    demo: "",
-    github: "",
-  },
+  
   {
     title: "Quiz App",
     text: "Multiple-choice quiz with score and timer.",
@@ -40,7 +34,7 @@ export default function Portfolio() {
   return (
     <>
       <h1>Portfolio</h1>
-      <p>Projects I've done and am doing while studying front-end development.</p>
+      <p>Projects I'm working on while learning front-end development.</p>
       <div className="grid">
         {projects.map((p) => (
           <article className="card" key={p.title}>

@@ -15,12 +15,11 @@ export default function Contact() {
       <div className="two">
         <div>
           <p>
-            Have a project, an opportunity, or a question? Send me a message and
-            I'll reply as soon as I can.
+            Do you have a question? Send me a message and I will answer it as soon as possible.
           </p>
           <p>
             <strong>Email:</strong> <a href="mailto:martinnares2027@gmail.com">martinnares2027@gmail.com</a><br />
-            <strong>GitHub:</strong> <a href="https://github.com/martinnares-dev">github.com/martinnares-dev</a><br />
+            <strong>GitHub:</strong> <a href="#">github.com/martinnares-dev</a><br />
             <strong>Facebook:</strong> <a href="https://facebook.com/martinlinollantosnares">facebook.com/martinlinollantosnares</a>
           </p>
         </div>
@@ -31,7 +30,7 @@ export default function Contact() {
           <button className="btn" type="submit">Send message</button>
           {sent && (
             <p className="ok show" role="status">
-              Message ready! This demo form has no back-end yet, so nothing was sent.
+              Sorry! This demo form doesn't have a back-end yet, so nothing was sent.
             </p>
           )}
         </form>

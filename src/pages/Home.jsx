@@ -20,11 +20,9 @@ export default function Home() {
       <section className="hero">
         <div>
           <img className="avatar" src="/profile.jpg" alt="Photo of Martin" />
-          <h1>I build clean, responsive websites.</h1>
+          <h1>I am studying web development.</h1>
           <p className="lead">
-            Hi, I'm Martin, a junior front-end developer working toward becoming a
-            software engineer. I turn designs into fast, accessible web pages with
-            HTML, CSS, JavaScript, TypeScript, and React.
+            Hi, I'm Martin, a junior front-end developer working towards becoming a Software Engineer. I'm working on learning Web Development including HTML, CSS, JavaScript, TypeScript, React and AI.
           </p>
           <div className="actions">
             <Link className="btn" to="/portfolio">View my work</Link>
@@ -35,7 +33,7 @@ export default function Home() {
       </section>
 
       <section className="section">
-        <h2>What I work with</h2>
+        <h2>What I am studying</h2>
         <div className="grid">
           {highlights.map((h) => (
             <article className="card" key={h.title}>
