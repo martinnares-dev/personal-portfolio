@@ -20,7 +20,7 @@ export default function Contact() {
           <p>
             <strong>Email:</strong> <a href="mailto:martinnares2027@gmail.com">martinnares2027@gmail.com</a><br />
             <strong>GitHub:</strong> <a href="#">github.com/martinnares-dev</a><br />
-            <strong>Facebook:</strong> <a href="https://facebook.com/martinlinollantosnares">facebook.com/martinlinollantosnares</a>
+            <strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61592316135584">facebook.com/martinlinollantosnares</a>
           </p>
         </div>
         <form onSubmit={handleSubmit}>
