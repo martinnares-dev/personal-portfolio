@@ -1,17 +1,46 @@
 const projects = [
-  { title: "Personal Portfolio", text: "This multi-page, responsive site, deployed on Vercel.", tags: ["React", "CSS", "Vite"] },
-  { title: "Task Tracker", text: "Add, complete, and filter tasks with React state and hooks.", tags: ["React", "TypeScript", "CSS"] },
-  { title: "Weather App", text: "Search a city and see the current forecast using a public API.", tags: ["JavaScript", "REST API", "CSS"] },
-  { title: "Login Page Clone", text: "A responsive login page built to practice layout.", tags: ["HTML", "CSS", "Flexbox"] },
-  { title: "Landing Page", text: "A mobile-first marketing page with a responsive grid and sticky nav.", tags: ["HTML", "CSS Grid", "JavaScript"] },
-  { title: "Quiz App", text: "A timed multiple-choice quiz with score tracking.", tags: ["React", "TypeScript"] },
+  {
+    title: "Facebook Login Page Clone",
+    text: "My own version of the login page to practice layout and responsive design.",
+    tags: ["HTML", "CSS", "Completed"],
+    demo: "",
+    github: "",
+  },
+  {
+    title: "Personal Portfolio",
+    text: "This website is built with React and deployed on Vercel.",
+    tags: ["React", "CSS", "Completed"],
+    demo: "",
+    github: "",
+  },
+  {
+    title: "Task Tracker",
+    text: "App to add, check, and delete tasks using React state.",
+    tags: ["React", "JavaScript", "In progress"],
+    demo: "",
+    github: "",
+  },
+  {
+    title: "Weather App",
+    text: "Search for a city and display the weather using the public API.",
+    tags: ["JavaScript", "API", "In progress"],
+    demo: "",
+    github: "",
+  },
+  {
+    title: "Quiz App",
+    text: "Multiple-choice quiz with score and timer.",
+    tags: ["React", "Planned"],
+    demo: "",
+    github: "",
+  },
 ];
 
 export default function Portfolio() {
   return (
     <>
       <h1>Portfolio</h1>
-      <p>A few of the projects I've built while growing as a front-end developer.</p>
+      <p>Projects I've done and am doing while studying front-end development.</p>
       <div className="grid">
         {projects.map((p) => (
           <article className="card" key={p.title}>
@@ -20,10 +49,12 @@ export default function Portfolio() {
             <ul className="tags">
               {p.tags.map((t) => <li key={t}>{t}</li>)}
             </ul>
-            <div className="links">
-              <a href="#">Live demo</a>
-              <a href="#">GitHub</a>
-            </div>
+            {(p.demo || p.github) && (
+              <div className="links">
+                {p.demo && <a href={p.demo} target="_blank" rel="noreferrer">Live demo</a>}
+                {p.github && <a href={p.github} target="_blank" rel="noreferrer">GitHub</a>}
+              </div>
+            )}
           </article>
         ))}
       </div>

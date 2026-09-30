@@ -19,9 +19,9 @@ export default function Contact() {
             I'll reply as soon as I can.
           </p>
           <p>
-            <strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a><br />
-            <strong>GitHub:</strong> <a href="https://github.com/your-username">github.com/your-username</a><br />
-            <strong>Facebook:</strong> <a href="https://facebook.com/your-profile">facebook.com/your-profile</a>
+            <strong>Email:</strong> <a href="mailto:martinnares2027@gmail.com">martinnares2027@gmail.com</a><br />
+            <strong>GitHub:</strong> <a href="https://github.com/martinnares-dev">github.com/martinnares-dev</a><br />
+            <strong>Facebook:</strong> <a href="https://facebook.com/martinlinollantosnares">facebook.com/martinlinollantosnares</a>
           </p>
         </div>
         <form onSubmit={handleSubmit}>

@@ -15,6 +15,7 @@ export default function About() {
       <h1>About me</h1>
       <div className="two">
         <div>
+          <img className="avatar big" src="/profile.jpg" alt="Photo of Martin" />
           <p>
             I'm Martin, a junior front-end developer who is working toward a career
             as a software engineer. I like building things people can see and use,

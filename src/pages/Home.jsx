@@ -19,6 +19,7 @@ export default function Home() {
     <>
       <section className="hero">
         <div>
+          <img className="avatar" src="/profile.jpg" alt="Photo of Martin" />
           <h1>I build clean, responsive websites.</h1>
           <p className="lead">
             Hi, I'm Martin, a junior front-end developer working toward becoming a
