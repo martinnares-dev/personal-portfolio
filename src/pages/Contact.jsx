@@ -19,7 +19,7 @@ export default function Contact() {
           </p>
           <p>
             <strong>Email:</strong> <a href="mailto:martinnares2027@gmail.com">martinnares2027@gmail.com</a><br />
-            <strong>GitHub:</strong> <a href="#">github.com/martinnares-dev</a><br />
+            <strong>GitHub:</strong> <a href="https://www.github.com/martinnares-dev">github.com/martinnares-dev</a><br />
             <strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61592316135584">facebook.com/martinlinollantosnares</a>
           </p>
         </div>
